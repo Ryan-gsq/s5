@@ -20,6 +20,9 @@ else
     fi
 fi
 
+#开放端口
+ufw allow 8278/tcp
+
 # 给予执行权限
 chmod +x "$FILE"
 
